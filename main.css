@@ -1,0 +1,468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+    color: black;
+    font-family: sans-serif, 'Teko';
+}
+
+
+/*global style for section container*/
+.section-container{
+    max-width: 92.5%;
+    margin: auto;
+}
+.content-container{
+    max-width: 1100px;
+    margin: auto;
+    color: black;
+}
+
+
+/*top-Navbar*/
+.top-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+.top-navbar .titlelogo{
+    margin-left: 20px;
+}
+.top-navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.top-navbar ul a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin: 20px;
+    cursor: pointer;
+}
+.top-navbar ul a:hover{
+    color: red;
+}
+.top-navbar ul .dropdown > .dropdowncontent{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background-color: white;
+}
+.top-navbar ul .dropdown > .dropdowncontent a:nth-child(odd){
+    margin: 0px;
+    padding: 20px;
+    border-bottom: solid 1px black;
+}
+.top-navbar ul .dropdown:hover .dropdowncontent{
+    display: block;
+}
+
+
+
+
+/*sectionOne*/
+.sectionOne{
+    background-image: url(images/sectionOneBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sectionOne .intro{
+    color: #3e5163;
+    width: 45%;
+}
+.sectionOne .intro h1{
+    font-family: 'Teko';
+    font-size: 100px;
+    line-height: 90px;
+}
+.sectionOne .intro p{
+    font-family: sans-serif;
+}
+.sectionOne .intro button{
+    background-color: inherit;
+    padding: 12px 40px 12px 40px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.section-Two-backgroundcColor{
+    background-color: #f7f7f8;
+}
+
+
+
+
+/*sectionTwo*/
+.sectionTwo{
+/*    background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/*rowOne*/
+.sectionTwo .rowOne{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sectionTwo .rowOne > div{
+    flex: 1;
+}
+.sectionTwo .rowOne .boxOne{
+    background-image: url(images/rowOneBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.sectionTwo .rowOne .boxOne .text{
+    background-image: url(images/sectionTwoBoxOne.a.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    width: 50%;
+    padding: 50px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 30px;
+}
+
+.sectionTwo .rowOne .boxTwo{
+    background-image: url(images/rowOneBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.sectionTwo .rowOne .boxTwo .text{
+    color: #3e5163;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50%;
+    padding: 50px;
+    background-color: white;
+    height: 100%;
+    line-height: 30px;
+}
+.sectionTwo .rowOne .boxTwo .text button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/*rowTwo*/
+.sectionTwo .rowTwo{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.sectionTwo .rowTwo > div{
+    flex: 1;
+}
+.sectionTwo .rowTwo .boxOne{
+    background-image: url(images/rowTwoBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.sectionTwo .rowTwo .boxOne .text{
+    color: #3e5163;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 50px;
+    background-color: white;
+    height: 100%;
+    line-height: 30px;
+}
+.sectionTwo .rowTwo .boxOne .text button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.sectionTwo .rowTwo .boxTwo{
+    background-image: url(images/rowTwoBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.sectionTwo .rowTwo .boxTwo .addchart{
+    color: #3e5163;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 50%;
+    padding: 50px;
+    background-color: #f2f0f1;
+    height: 100%;
+    line-height: 30px;
+}
+.sectionTwo .rowTwo .boxTwo .addchart > div{
+    text-align: center;
+    cursor: pointer;
+}
+.sectionTwo .rowTwo .boxTwo .addchart > div i{
+    font-size: 70px;
+    transition: 0.4s;
+}
+.sectionTwo .rowTwo .boxTwo .addchart > div i:hover{
+    font-size: 85px;
+}
+
+/*rowThree*/
+.sectionTwo .rowThree{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    margin-top: 20px;
+}
+.sectionTwo .rowThree > div{
+    flex: 1;
+}
+.sectionTwo .rowThree .model{
+    background-image: url(images/rowThreeBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.sectionTwo .rowThree .trivia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.sectionTwo .rowThree .trivia p{
+    padding: 20px 0px;
+    line-height: 30px
+}
+
+
+
+/*sectionThree*/
+.section-Three-backgroundcColor{
+    background-color: #fa0498;
+/*    height: 200px;*/
+}
+.section-Three{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+.section-Three > div{
+    padding: 45px 0px;
+}
+.section-Three button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    border-top: solid 1px white;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.sectionTwo > div{
+    border: solid 1px;
+    width: 50%;
+    height: 272px;
+    float: left;
+    overflow: hidden;
+}
+*/
+
+/*
+
+.sectionTwo .boxOne{
+    background-image: url(images/sectionTwoBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sectionTwo .boxOne .text{
+    background-image: url(images/sectionTwoBoxOne.a.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    padding: 0px 50px;
+}
+.sectionTwo .boxTwo{
+    background-image: url(images/sectionTwoBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sectionTwo .boxTwo .visit{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 40px;
+    padding: 0px 50px;
+    margin-left: 50%;
+}
+.sectionTwo .boxTwo .visit button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.sectionTwo .boxThree{
+    background-image: url(images/sectionTwoBoxThree.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sectionTwo .boxThree .getCustomTee{
+    background-color: #bdbcbc;
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 40px;
+    padding: 0px 50px;
+}
+.sectionTwo .boxThree .getCustomTee button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sectionTwo .boxFour{
+    background-image: url(images/sectionTwoBoxFour.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sectionTwo .boxFour .getYourOwn{
+    width: 50%;
+    height: 100%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px grey;
+}
+.sectionTwo .boxFour .getYourOwn > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    font-size: 13px;
+}
+.sectionTwo .boxFour .getYourOwn .btnPlus{
+    cursor: pointer;
+}
+.sectionTwo .boxFour .getYourOwn i{
+    font-size: 60px;
+    color: #4f5f6e;
+    transition: 0.4s
+}
+.sectionTwo .boxFour .getYourOwn i:hover{
+    font-size: 70px;
+}
+
+
+*/
+
+
+/*sectionThree*/
+
+
+
+
+
+
+
+
