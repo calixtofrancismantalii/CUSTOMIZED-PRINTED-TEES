@@ -287,7 +287,6 @@ html{
 /*sectionThree*/
 .section-Three-backgroundcColor{
     background-color: #fa0498;
-/*    height: 200px;*/
 }
 .section-Three{
     color: white;
@@ -305,15 +304,16 @@ html{
     padding: 12px 30px 12px 30px;
     outline: none;
     border: none;
-    border-top: solid  1px;
-    border-right: solid  1px;
-    border-bottom: solid  1px;
+    border-top: solid  2px;
+    border-right: solid  2px;
+    border-bottom: solid  2px;
     margin-top: 10px;
     cursor: pointer;
     color: white;
     border-top: solid 1px white;
     border-right: solid 1px white;
     border-bottom: solid 1px white;
+    width: 150%;
 }
 
 
