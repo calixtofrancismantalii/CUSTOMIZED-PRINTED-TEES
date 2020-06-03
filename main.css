@@ -89,7 +89,8 @@ html{
     line-height: 90px;
 }
 .sectionOne .intro p{
-    font-family: sans-serif;
+    padding: 20px 0px;
+    line-height: 30px
 }
 .sectionOne .intro button{
     background-color: inherit;
@@ -320,7 +321,8 @@ html{
 
 /*sectionFour*/
 .section-Four-backgroundColor{
-    background-color: red;
+/*    background-color: red;*/
+    height: 1100px;
     
 }
 .section-Four .rowOne h1{
@@ -470,29 +472,50 @@ html{
 /*sectionFive*/
 .section-Five-backgroundColor{
     background-color: #f7f7f8;
-    height: 1000px;
+    height: 850px;
     padding-top: 120px
 }
-
-
-
 .section-Five{
-    background-color: darkred;
     height: 500px;
-/*    padding-top: 10px;*/
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 200px
 }
 .section-Five > div{
     flex: 1;
-    border: solid 1px;
 }
-.section-Five  .text > div{
-    background-color: royalblue;
+
+.section-Five .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section-Five .text > div{
     width: 85%;
-    
+}
+.section-Five .text p{
+    padding: 20px 0px;
+    line-height: 30px
+}
+.section-Five .text button{
+    background-color: inherit;
+    padding: 12px 40px 12px 40px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 45px;
+    cursor: pointer;
     
 }
 
+.section-Five .model{
+    background-image: url(images/sectionFiveModel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
