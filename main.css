@@ -285,7 +285,7 @@ html{
 
 
 /*sectionThree*/
-.section-Three-backgroundcColor{
+.section-Three-backgroundColor{
     background-color: #fa0498;
 }
 .section-Three{
@@ -297,7 +297,7 @@ html{
     align-content: center;
 }
 .section-Three > div{
-    padding: 45px 0px;
+    padding: 65px 0px;
 }
 .section-Three button{
     background-color: inherit;
@@ -318,151 +318,181 @@ html{
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*
-.sectionTwo > div{
-    border: solid 1px;
-    width: 50%;
-    height: 272px;
-    float: left;
-    overflow: hidden;
+/*sectionFour*/
+.section-Four-backgroundColor{
+    background-color: red;
+    
 }
-*/
-
-/*
-
-.sectionTwo .boxOne{
-    background-image: url(images/sectionTwoBoxOne.png);
-    background-repeat: no-repeat;
-    background-position: center;
+.section-Four .rowOne h1{
+    padding: 70px 0px;
+    text-align: center;
+    color: #3e5163; 
 }
-.sectionTwo .boxOne .text{
-    background-image: url(images/sectionTwoBoxOne.a.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-    background-color: white;
-    width: 50%;
-    height: 100%;
+
+.section-Four .showCase span{
+    display: inline-block;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+.section-Four .showCase .boxes{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    line-height: 40px;
-    padding: 0px 50px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
-.sectionTwo .boxTwo{
-    background-image: url(images/sectionTwoBoxTwo.png);
-    background-repeat: no-repeat;
-    background-position: left;
+.section-Four .showCase .boxes > div{
+    flex: 1;
+    margin: 10px;
+    width: 220px;
 }
-.sectionTwo .boxTwo .visit{
-    background-color: white;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    line-height: 40px;
-    padding: 0px 50px;
-    margin-left: 50%;
-}
-.sectionTwo .boxTwo .visit button{
-    background-color: inherit;
-    padding: 12px 30px 12px 30px;
-    outline: none;
-    border: none;
-    border-top: solid  1px;
-    border-right: solid  1px;
-    border-bottom: solid  1px;
-    margin-top: 40px;
+.section-Four .showCase .boxes .box{
+    border: solid 1px #f0eff0;
     cursor: pointer;
-}
-.sectionTwo .boxThree{
-    background-image: url(images/sectionTwoBoxThree.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.sectionTwo .boxThree .getCustomTee{
-    background-color: #bdbcbc;
-    color: white;
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    line-height: 40px;
-    padding: 0px 50px;
-}
-.sectionTwo .boxThree .getCustomTee button{
-    background-color: inherit;
-    padding: 12px 30px 12px 30px;
-    outline: none;
-    border: none;
-    border-top: solid  1px;
-    border-right: solid  1px;
-    border-bottom: solid  1px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-.sectionTwo .boxFour{
-    background-image: url(images/sectionTwoBoxFour.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.sectionTwo .boxFour .getYourOwn{
-    width: 50%;
-    height: 100%;
-    margin-left: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px grey;
-}
-.sectionTwo .boxFour .getYourOwn > div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 30px;
-    font-size: 13px;
-}
-.sectionTwo .boxFour .getYourOwn .btnPlus{
-    cursor: pointer;
-}
-.sectionTwo .boxFour .getYourOwn i{
-    font-size: 60px;
-    color: #4f5f6e;
+    padding: 10px;
     transition: 0.4s
 }
-.sectionTwo .boxFour .getYourOwn i:hover{
+.section-Four .showCase .boxes .box:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-Four .showCase .boxes .box .img-container{
+    height: 250px;
+    position: relative;
+    background-color: aquamarine;
+}
+.section-Four .showCase .boxes .box .img-container .quick-view{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+    display: none;
+}
+.section-Four .showCase .boxes .box .boxOne:hover .quick-view{
+    display: block;
+}
+.section-Four .showCase .boxes .box .boxTwo:hover .quick-view{
+    display: block;
+}
+.section-Four .showCase .boxes .box .boxThree:hover .quick-view{
+    display: block;
+}
+.section-Four .showCase .boxes .box .boxFour:hover .quick-view{
+    display: block;
+}
+.section-Four .showCase .boxes .box .boxOne{
+    background-image: url(images/sectionFourShowcaseBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Four .showCase .boxes .box .boxTwo{
+    background-image: url(images/sectionFourShowcaseBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Four .showCase .boxes .box .boxThree{
+    background-image: url(images/sectionFourShowcaseBoxThree.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Four .showCase .boxes .box .boxFour{
+    background-image: url(images/sectionFourShowcaseBoxFour.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Four .showCase .boxes .box .label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0px;
+}
+.section-Four .showCase .boxes .box .label span{
+    padding: 0px;
+}
+.section-Four .showCase .boxes .box .label h4{
+    padding: 10px;
+}
+.section-Four .showCase .boxes .box .label .rating-star{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.section-Four .rowThree{
+    background-color: black;
+/*    margin: 50px 0px;*/
+    margin-top: 100px;
+}
+.section-Four .rowThree .vid-thumbnail{
+    background-image: url(images/sectionFourVidThumbnailBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    position: relative;
+    
+    
+}
+.section-Four .rowThree .vid-thumbnail .play-button{
+    opacity: 0.9!important;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    
+}
+.section-Four .rowThree .vid-thumbnail .play-button i{
+    font-size: 60px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.section-Four .rowThree .vid-thumbnail .play-button i:hover{
     font-size: 70px;
 }
 
 
-*/
+
+/*sectionFive*/
+.section-Five-backgroundColor{
+    background-color: #f7f7f8;
+    height: 1000px;
+    padding-top: 120px
+}
 
 
-/*sectionThree*/
 
-
-
-
-
-
+.section-Five{
+    background-color: darkred;
+    height: 500px;
+/*    padding-top: 10px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.section-Five > div{
+    flex: 1;
+    border: solid 1px;
+}
+.section-Five  .text > div{
+    background-color: royalblue;
+    width: 85%;
+    
+    
+}
 
 
