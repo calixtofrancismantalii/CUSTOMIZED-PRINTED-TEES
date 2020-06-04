@@ -108,23 +108,22 @@ html{
 
 
 
-
-.section-Two-backgroundcColor{
+.section-Two-backgroundColor{
     background-color: #f7f7f8;
 }
 
 
 
 
+
+
 /*sectionTwo*/
 .sectionTwo{
-/*    background-color: red;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
 }
-
 /*rowOne*/
 .sectionTwo .rowOne{
     height: 250px;
@@ -157,7 +156,6 @@ html{
     align-items: center;
     line-height: 30px;
 }
-
 .sectionTwo .rowOne .boxTwo{
     background-image: url(images/rowOneBoxTwo.png);
     background-repeat: no-repeat;
@@ -224,7 +222,6 @@ html{
     margin-top: 10px;
     cursor: pointer;
 }
-
 .sectionTwo .rowTwo .boxTwo{
     background-image: url(images/rowTwoBoxTwo.png);
     background-repeat: no-repeat;
@@ -255,13 +252,12 @@ html{
 .sectionTwo .rowTwo .boxTwo .addchart > div i:hover{
     font-size: 85px;
 }
-
 /*rowThree*/
 .sectionTwo .rowThree{
     display: flex;
     flex-direction: row;
     height: 450px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .sectionTwo .rowThree > div{
     flex: 1;
@@ -282,6 +278,8 @@ html{
     padding: 20px 0px;
     line-height: 30px
 }
+
+
 
 
 
@@ -319,9 +317,10 @@ html{
 
 
 
+
+
 /*sectionFour*/
 .section-Four-backgroundColor{
-/*    background-color: red;*/
     height: 1100px;
     
 }
@@ -330,7 +329,6 @@ html{
     text-align: center;
     color: #3e5163; 
 }
-
 .section-Four .showCase span{
     display: inline-block;
     padding: 40px 20px;
@@ -426,7 +424,6 @@ html{
     flex-direction: row;
     padding: 10px 0px;
 }
-
 .section-Four .rowThree{
     background-color: black;
 /*    margin: 50px 0px;*/
@@ -485,7 +482,6 @@ html{
 .section-Five > div{
     flex: 1;
 }
-
 .section-Five .text{
     display: flex;
     flex-direction: row;
@@ -511,7 +507,6 @@ html{
     cursor: pointer;
     
 }
-
 .section-Five .model{
     background-image: url(images/sectionFiveModel.jpg);
     background-repeat: no-repeat;
@@ -519,3 +514,98 @@ html{
     background-size: cover;
 }
 
+
+/*sectionSix*/
+.section-Six{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 50px 0px;
+}
+.section-Six > div{
+    flex: 1;
+}
+.section-Six .text > div{
+    width: 85%;
+}
+.section-Six .text p{
+    padding: 20px 0px;
+    line-height: 30px
+}
+.section-Six .text button{
+    background-color: inherit;
+    padding: 12px 40px 12px 40px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 45px;
+    cursor: pointer;
+    
+}
+.section-Six .text  > div{
+    padding: 70px;
+}
+.section-Six .imageOne{
+    background-image: url(images/section-Six-ImageOne.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-color: white;
+}
+.section-Six .imageTwo{
+    background-image: url(images/section-Six-imageTwo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-color: grey;
+}
+
+
+
+
+
+
+
+/*footer*/
+.footer-backgroundColor{
+    background-color: #3e5163;
+    margin-bottom: 120px;
+/*    height: 400px;*/
+    
+}
+.section-footer .column{
+    display: flex;
+    flex-direction: row;
+}
+.section-footer .column > div{
+    flex: 1;
+    padding: 20px 80px;
+}
+.section-footer .column .side-nav-footer{
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+.section-footer .column .side-nav-footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 20px;
+}
+.section-footer .column .socMed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.section-footer .column .socMed > div i{
+    font-size: 50px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+    
