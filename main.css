@@ -484,7 +484,7 @@ html{
     height: 100%;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.90);
-/*    display: none;*/
+    display: none;
 }
 #modal .close-btn{
     text-align: right;
