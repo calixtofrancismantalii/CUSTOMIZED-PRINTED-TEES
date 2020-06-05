@@ -39,6 +39,9 @@ html{
 .top-navbar .titlelogo{
     margin-left: 20px;
 }
+.top-navbar label, input[type=checkbox]{
+    display: none;
+}
 .top-navbar ul{
     list-style-type: none;
     display: flex;
@@ -636,4 +639,193 @@ html{
     cursor: pointer;
 }
 
+   
+
+
+
+
+
+/*for ipad screen*/
+@media(max-width:768px){
     
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+ 
+    
+    
+    .top-navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-navbar label{
+        margin-left: auto;
+        display: block;
+        padding: 35px 20px;
+        font-size: 25px;
+    }
+    .top-navbar #toggle:checked + ul{
+        display: block;
+    }
+    .top-navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .top-navbar ul{
+        display: none;
+    }
+    .top-navbar li{
+        border: solid 1px #eaeaea;
+        width: 100%;
+    }
+    
+    
+    
+    .section-One{
+        background-image: url(images/sectionOneBg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        padding: 0px 50px; 
+    }
+    .section-One .intro button{
+        margin-top: 10px;
+    }
+    
+    
+    
+    .section-Two{
+        padding-top: 60px;
+/*        background-color: white;*/
+    }
+    .section-Two .rowOne{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+    .section-Two .rowOne .boxTwo .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-Two .rowTwo{
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+    .section-Two .rowTwo .boxOne .text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-Two .rowThree{
+        margin-top: 50px;
+        padding: 0px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Two .rowThree .model{
+        background-image: url(images/rowThreeBoxOne.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        
+    }
+    .section-Two .rowThree .trivia{
+        text-align: center;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        color: #3e5163;
+    }
+    .section-Two .rowThree .trivia > div{
+        width: 100%;
+    }
+    
+    
+
+    .section-Three{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;'
+        align-items: center;
+    }
+    .section-Three > div:nth-child(even){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .section-Three button{
+        background-color: inherit;
+        padding: 12px 30px 12px 30px;
+        outline: none;
+        border: none;
+        margin-bottom: 30px;
+        cursor: pointer;
+        color: white;
+        border-top: solid 1px white;
+        border-right: solid 1px white;
+        border-bottom: solid 1px white;
+        width: 50%;
+    }
+    
+    
+    
+    .section-Four .showCase{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .section-Four .showCase span{
+        text-align: center;
+    }
+    .section-Four .showCase .boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section-Four .showCase .boxes .box{
+        flex: 1;
+        margin: 10px;
+        width: 50%;
+    }
+    
+    
+    
+    .section-Five{
+        margin-top: 200px;
+    }
+    .section-Five .text > div{
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .section-Five .text button{
+        margin: 10px 0px;
+    }
+    
+    
+    
+    .section-Six .text > div{
+        padding-left: 50px;
+        width: 100%;
+    }
+    
+    
+}
+
