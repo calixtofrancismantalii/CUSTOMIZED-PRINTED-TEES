@@ -341,6 +341,7 @@ html{
     padding: 40px 20px;
     cursor: pointer;
 }
+
 .section-Four .showCase #tshirt{
     font-weight: bold;
 }
@@ -508,6 +509,9 @@ html{
 }
 #modal .vid-container video{
     outline: none;
+}
+#modal .vid-container #vid{
+/*    display: none;*/
 }
 
 
