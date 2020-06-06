@@ -14,10 +14,10 @@ function personalized() {
     
     tshirt.style.fontWeight = "normal";
     personalized.style.fontWeight = "bold";
-    showCaseBoxOne.style.backgroundImage = "none";
-    showCaseBoxTwo.style.backgroundImage = "none";
-    showCaseBoxThree.style.backgroundImage = "none";
-    showCaseBoxFour.style.backgroundImage = "none";
+    showCaseBoxOne.style.backgroundImage = "url(images/sectionFourShowcaseBoxOne.a.png)";
+    showCaseBoxTwo.style.backgroundImage = "url(images/sectionFourShowcaseBoxTwo.a.png)";
+    showCaseBoxThree.style.backgroundImage = "url(images/sectionFourShowcaseBoxThree.a.png)";
+    showCaseBoxFour.style.backgroundImage = "url(images/sectionFourShowcaseBoxFour.a.png)";
     type[0].innerHTML = "Personalized";
     type[1].innerHTML = "Personalized";
     type[2].innerHTML = "Personalized";
@@ -39,7 +39,6 @@ function personalized() {
         name[i].style.fontWeight = "bold";
     }
 }
-
 
 
 
