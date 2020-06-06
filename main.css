@@ -27,7 +27,6 @@ html{
 
 
 
-
 /*top-Navbar*/
 .top-navbar{
     display: flex;
@@ -142,6 +141,9 @@ html{
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+}
+.rowOne-boxOne-mobile-model{
+    display: none;
 }
 .rowOne .boxOne .text{
     background-image: url(images/sectionTwoBoxOne.a.png);
@@ -672,7 +674,7 @@ html{
 
 
 
-/*for ipad screen*/
+/*for tablet screen*/
 @media(max-width:768px){
     
     .section-container{
@@ -854,5 +856,84 @@ html{
     }
     
     
+}
+/*for mobile screen*/
+@media(max-width:480px){
+    
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    
+    .section-One{
+        background-image: url(images/sectionOneBg.mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        
+        padding: 0px 15px; 
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .section-One .intro{
+        width: 100%;
+        text-align: center;
+    }
+    .section-One .intro h1{
+        font-size: 3em;
+        line-height: 50px;
+        
+    }
+    
+    
+    .section-Two{
+        padding-top: 0px; 
+    }
+    
+    .section-Two .rowOne{
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        height: 970px;
+        
+    }
+    
+    .section-Two .rowOne .boxOne{
+        height: 400px;
+    }
+    .section-Two .rowOne .boxOne .text{
+        width: 100%;
+        text-align: center;
+        height: 150px;
+    }
+    .section-Two .rowOne .boxOne .rowOne-boxOne-mobile-model{
+        background-image: url(images/rowOneBoxOne.mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        height: 410px;
+    }
+    
+    .section-Two .rowOne .boxTwo{
+        background-color: blue;
+        background-image: url(images/rowOneBoxTwo.mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        height: 500px;
+    }
+    .section-Two .rowOne .boxTwo .text{
+        width: 100%;
+        margin-left: 0px;
+        height: 250px;
+        margin-top: 60%;
+    }
+   
 }
 

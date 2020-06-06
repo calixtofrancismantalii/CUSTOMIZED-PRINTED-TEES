@@ -11,7 +11,7 @@ function personalized() {
     name = document.getElementsByClassName("name");
     price = document.getElementsByClassName("price")
     
-    
+
     tshirt.style.fontWeight = "normal";
     personalized.style.fontWeight = "bold";
     showCaseBoxOne.style.backgroundImage = "url(images/sectionFourShowcaseBoxOne.a.png)";
