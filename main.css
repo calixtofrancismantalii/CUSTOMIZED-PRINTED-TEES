@@ -125,169 +125,143 @@ html{
 .section-Two{
     padding-top: 50px;
 }
-/*rowOne-BoxOne*/
+
 .section-Two .rowOne{
-    height: 250px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
 }
-.section-Two .rowOne > div{
-    flex: 1;
+.section-Two .rowOne .box{
+    width: 25%;
+    height: 270px;
 }
-.section-Two .rowOne .boxOne{
-    background-image: url(images/rowOneBoxOne.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-.rowOne-boxOne-mobile-model{
-    display: none;
-}
-.rowOne-boxTwo-mobile-model{
-    display: none;
-}
-.rowOne .boxOne .text{
+.section-Two .rowOne .One{
     background-image: url(images/sectionTwoBoxOne.a.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    width: 50%;
-    padding: 50px;
     background-color: white;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    line-height: 30px;
-}
-/*rowOne-BoxTwo*/
-.section-Two .rowOne .boxTwo{
-    background-image: url(images/rowOneBoxTwo.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-}
-.section-Two .rowOne .boxTwo .text{
-    color: #3e5163;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 50%;
-    padding: 50px;
-    background-color: white;
-    height: 100%;
-    line-height: 30px;
-}
-.section-Two .rowOne .boxTwo .text button{
-    background-color: inherit;
-    padding: 12px 30px 12px 30px;
-    outline: none;
-    border: none;
-    border-top: solid  1px;
-    border-right: solid  1px;
-    border-bottom: solid  1px;
-    margin-top: 30px;
-    cursor: pointer;
-}
-/*rowTwo-BoxOne*/
-.section-Two .rowTwo{
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
-}
-.section-Two .rowTwo > div{
-    flex: 1;
-}
-.section-Two .rowTwo .boxOne{
-    background-image: url(images/rowTwoBoxOne.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-.section-Two .rowTwo .boxOne .text{
-    color: #3e5163;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    padding: 50px;
-    background-color: white;
-    height: 100%;
-    line-height: 30px;
-}
-.section-Two .rowTwo .boxOne .text button{
-    background-color: inherit;
-    padding: 12px 30px 12px 30px;
-    outline: none;
-    border: none;
-    border-top: solid  1px;
-    border-right: solid  1px;
-    border-bottom: solid  1px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-/*rowTwo-BoxTwo*/
-.section-Two .rowTwo .boxTwo{
-    background-image: url(images/rowTwoBoxTwo.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: contain;
-}
-.section-Two .rowTwo .boxTwo .addchart{
-    color: #3e5163;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    margin-left: 50%;
     padding: 50px;
-    background-color: #f2f0f1;
-    height: 100%;
-    line-height: 30px;
+    color: #3e5163;
 }
-.section-Two .rowTwo .boxTwo .addchart > div{
-    text-align: center;
-    cursor: pointer;
-}
-.section-Two .rowTwo .boxTwo .addchart > div i{
-    font-size: 70px;
-    transition: 0.4s;
-}
-.section-Two .rowTwo .boxTwo .addchart > div i:hover{
-    font-size: 85px;
-}
-/*rowThree*/
-.section-Two .rowThree{
-    display: flex;
-    flex-direction: row;
-    height: 450px;
-    margin-top: 60px;
-}
-.section-Two .rowThree > div{
-    flex: 1;
-}
-.section-Two .rowThree .model{
-    background-image: url(images/rowThreeBoxOne.png);
+.section-Two .rowOne .Two{
+    background-image: url(images/rowOneBoxOne.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
-.section-Two .rowThree .trivia{
+.section-Two .rowOne .Three{
+    background-image: url(images/rowOneBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Two .rowOne .Four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #3e5163;
+    padding: 50px;
+}
+.section-Two .rowOne .Four button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.section-Two .rowTwo{
     display: flex;
     flex-direction: row;
+}
+.section-Two .rowTwo .box{
+    width: 25%;
+    height: 270px;
+}
+.section-Two .rowTwo .One{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    background-color: white;
     color: #3e5163;
+    padding: 50px;
 }
-.section-Two .rowThree .trivia p{
-    padding: 20px 0px;
-    line-height: 30px;
+.section-Two .rowTwo .One button{
+    background-color: inherit;
+    padding: 12px 30px 12px 30px;
+    outline: none;
+    border: none;
+    border-top: solid  1px;
+    border-right: solid  1px;
+    border-bottom: solid  1px;
+    margin-top: 25px;
+    cursor: pointer;
 }
+.section-Two .rowTwo .Two{
+    background-image: url(images/rowTwoBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Two .rowTwo .Three{
+    background-image: url(images/rowTwoBoxTwo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Two .rowTwo .Four{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #3e5163;
+    padding: 50px;
+}
+.section-Two .rowTwo .Four > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 50px;
+}
+.section-Two .rowTwo .Four i{
+    font-size: 60px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.section-Two .rowTwo .Four i:hover{
+    font-size: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
