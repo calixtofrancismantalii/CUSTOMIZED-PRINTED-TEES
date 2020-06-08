@@ -885,10 +885,7 @@ html{
     
      /*SECTION-FOUR*/
     .section-Four-backgroundColor{
-        height: 1650px;
-    }
-    .section-Four{
-        padding: 0px 15px; 
+        height: 2650px;
     }
     .section-Four .rowOne{
         font-size: 15px;
@@ -896,6 +893,13 @@ html{
     .section-Four .showCase .switch{
         display: flex;
         margin-bottom: 20px;
+    }
+    .section-Four .showCase .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Four .showCase .boxes .box{
+        width: 95%;
     }
     
     
