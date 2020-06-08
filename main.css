@@ -146,6 +146,7 @@ html{
     align-items: center;
     padding: 50px;
     color: #3e5163;
+    line-height: 30px
 }
 .section-Two .rowOne .Two{
     background-image: url(images/rowOneBoxOne.png);
@@ -246,12 +247,38 @@ html{
     font-size: 75px;
 }
 
+.section-Two .rowThree{
+    display: flex;
+    margin-top: 50px;
+}
+.section-Two .rowThree .box{
+    width: 50%;
+    height: 470px;
+}
+.section-Two .rowThree .One{
+    background-image: url(images/rowThreeBoxOne.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-Two .rowThree .Two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #3e5163;
+    padding: 50px;
+}
+.section-Two .rowThree .Two p{
+    padding: 20px 0px;
+    line-height: 30px
+}
 
 
 
 
 
 
+    
 
 
 
