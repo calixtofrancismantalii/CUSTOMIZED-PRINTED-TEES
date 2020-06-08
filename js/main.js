@@ -96,7 +96,7 @@ function openModal() {
     
     modal.style.display = "block";
     vid.src = "/video/sampleVid.mp4";
-    vid.controller = play();
+    vid.play();
 }
 function closeModal() {
     var modal, vid;
