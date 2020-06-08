@@ -48,7 +48,10 @@ html{
     margin: 20px;
     cursor: pointer;
 }
-.top-navbar ul a:hover{
+.top-navbar ul .active{
+    color: red;
+}
+.top-navbar ul a:hover:not(.active){
     color: red;
 }
 .top-navbar ul .dropdown > .dropdowncontent{
