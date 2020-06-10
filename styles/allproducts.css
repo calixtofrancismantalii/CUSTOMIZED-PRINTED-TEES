@@ -92,15 +92,73 @@ html{
 .section-result .control > div{
     padding: 20px;
 }
-.section-result .sort{
+.section-result .control #filter:hover{
+    cursor: pointer;
+}
+.section-result .control .sort{
     margin-left: auto;
 }
-.section-result .sort select{
+.section-result .control .sort select{
     outline: none;
     cursor: pointer;
     border-radius: 3px;
     padding: 5px;
 }
+
+/*modal*/
+.section-result #modal{
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
+.section-result #modal .side-bar{
+    background-color: #f5f5f5;
+    width: 400px;
+    height: 100vh;
+}
+.section-result #modal .side-bar .side-nav-container{
+    background-color: #ffffff;
+    margin-left: 55px;
+    height: 100%;
+    padding: 0px 40px;
+    box-shadow: -4px 3px 4px 0px rgba(0,0,0,0.22);
+}
+.section-result #modal .side-bar .side-nav-container #close{
+    text-align: right;
+    font-size: 25px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.section-result #modal .side-bar .side-nav-container .product-categories ul{
+    margin: 40px 0px;
+}
+.section-result #modal .side-bar .side-nav-container .product-categories li a{
+    display: block;
+    margin: 10px 0px;
+    text-decoration: none;
+    color: red;
+}
+
+.section-result #modal .side-bar .side-nav-container .filter-by-price #fbp-filter{
+    float: left;
+}
+.section-result #modal .side-bar .side-nav-container .filter-by-price #range-price{
+    float: right;
+}
+.section-result #modal .side-bar .side-nav-container .filter-by-price input[type=range]{
+    width: 100%;
+    border: none;
+    margin: 40px 0px;
+    cursor: pointer;
+} 
+
 
 /*row box*/
 .section-result{

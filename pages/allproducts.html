@@ -47,7 +47,7 @@
         <div class="content-container-two">
             <div class="section-result">
                 <div class="control">
-                    <div>&#9776; FILTER</div>
+                    <div><span id="filter">&#9776; FILTER</span></div>
                     <div><span>Showing 1–9 of 10 results</span></div>
                     <div class="sort">
                         <select>
@@ -58,6 +58,29 @@
                             <option>Sort by price: low to high</option>
                             <option>Sort by price: high to low</option>
                         </select>
+                    </div>
+                </div>
+                <div id="modal">
+                    <div class="side-bar">
+                        <div class="side-nav-container">
+                            <div id="close">
+                                <i class="fas fa-times-circle" onclick="closeModal()"></i>
+                            </div>
+                            <div class="product-categories">
+                                <h3>PRODUCT CATEGORIES</h3>
+                                <ul style="list-style-type: none;">
+                                    <li><a href="#">Custom Tees</a></li>
+                                    <li><a href="#">Personalized T-shirt</a></li>
+                                    <li><a href="#">Uncategorized</a></li>
+                                </ul>  
+                            </div>
+                            <div class="filter-by-price">
+                                <h3>FILTER BY PRICE</h3>
+                                <input type="range">
+                                <span id="fbp-filter">FILTER</span>
+                                <p id="range-price">Price <span>Php10</span> - <span>Php40</span></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
