@@ -78,13 +78,36 @@ html{
 
 
 /*SECTION-RESULT*/
+/*control sort*/
+.section-result .control{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.section-result .control > div{
+    padding: 20px;
+}
+.section-result .sort{
+    margin-left: auto;
+}
+.section-result .sort select{
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/*row box*/
 .section-result{
     background-color: white;
     margin: 65px 0px;
     padding: 90px;
 }
-
-
 .section-result .row{
     display: flex;
     flex-direction: row;
@@ -92,7 +115,7 @@ html{
     flex-wrap: wrap;
 }
 .section-result .row .box{
-    width: 30%;
+    width: 31.2%;
 /*    height: 450px;*/
     margin: 10px;
     border: solid 1px #f0eff0;
