@@ -341,7 +341,6 @@ html{
 .section-Four .showCase .boxes .box .img-container{
     height: 250px;
     position: relative;
-    background-color: aquamarine;
 }
 .section-Four .showCase .boxes .box .img-container .quick-view{
     background-color: black;
