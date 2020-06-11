@@ -116,6 +116,7 @@ html{
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.50);
     z-index: 1;
+    display: none;
 }
 .section-result #modal .side-bar{
     background-color: #f5f5f5;
@@ -126,15 +127,18 @@ html{
     background-color: #ffffff;
     margin-left: 55px;
     height: 100%;
-    padding: 0px 40px;
-    box-shadow: -4px 3px 4px 0px rgba(0,0,0,0.22);
+    box-shadow: -4px 3px 10px 0px rgba(0,0,0,0.34);
 }
 .section-result #modal .side-bar .side-nav-container #close{
     text-align: right;
     font-size: 25px;
-    padding: 5px 0px;
+    padding: 10px 10px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+.section-result #modal .side-bar .side-nav-container .container{
+    max-width: 255px;
+    margin: auto;
 }
 .section-result #modal .side-bar .side-nav-container .product-categories ul{
     margin: 40px 0px;
@@ -143,7 +147,7 @@ html{
     display: block;
     margin: 10px 0px;
     text-decoration: none;
-    color: red;
+    color: #db2090;
 }
 
 .section-result #modal .side-bar .side-nav-container .filter-by-price #fbp-filter{
@@ -232,9 +236,37 @@ html{
     background-position: center;
     background-size: cover;
 }
-/*showCase-boxThree*/
+/*showCase-boxFour*/
 .section-result .row .box .boxFour{
     background-image: url(../images/sectionFourShowcaseBoxFour.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*showCase-boxFive*/
+.section-result .row .box .boxFive{
+    background-image: url(../images/sectionFourShowcaseBoxOne.a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*showCase-boxSix*/
+.section-result .row .box .boxSix{
+    background-image: url(../images/sectionFourShowcaseBoxTwo.a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*showCase-boxSeven*/
+.section-result .row .box .boxSeven{
+    background-image: url(../images/sectionFourShowcaseBoxThree.a.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*showCase-boxEight*/
+.section-result .row .box .boxEight{
+    background-image: url(../images/sectionFourShowcaseBoxFour.a.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -258,6 +290,24 @@ html{
     display: flex;
     flex-direction: row;
     padding: 10px 0px;
+}
+
+
+.section-result .page{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10px;
+    color: #db2090;
+}
+.section-result .page > div{
+    padding: 15px 20px;
+    border: solid 1px #db2090;
+    margin: 3px;
+    cursor: pointer;
+}
+.section-result .page .active{
+    background-color: #db2090;
+    color: white;
 }
 
 
