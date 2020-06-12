@@ -224,42 +224,42 @@ html{
 }
 /*showCase-boxTwo*/
 .section-result .row .box .boxTwo{
-    background-image: url(../images/sectionFourShowcaseBoxTwo.png);
+    background-image: url(../images/sectionFourShowcaseBoxOne.a.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /*showCase-boxThree*/
 .section-result .row .box .boxThree{
-    background-image: url(../images/sectionFourShowcaseBoxThree.png);
+    background-image: url(../images/sectionFourShowcaseBoxTwo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /*showCase-boxFour*/
 .section-result .row .box .boxFour{
-    background-image: url(../images/sectionFourShowcaseBoxFour.png);
+    background-image: url(../images/sectionFourShowcaseBoxTwo.a.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /*showCase-boxFive*/
 .section-result .row .box .boxFive{
-    background-image: url(../images/sectionFourShowcaseBoxOne.a.png);
+    background-image: url(../images/sectionFourShowcaseBoxThree.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /*showCase-boxSix*/
 .section-result .row .box .boxSix{
-    background-image: url(../images/sectionFourShowcaseBoxTwo.a.png);
+    background-image: url(../images/sectionFourShowcaseBoxThree.a.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 /*showCase-boxSeven*/
 .section-result .row .box .boxSeven{
-    background-image: url(../images/sectionFourShowcaseBoxThree.a.png);
+    background-image: url(../images/sectionFourShowcaseBoxFour.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
