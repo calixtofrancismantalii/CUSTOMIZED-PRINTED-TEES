@@ -1,3 +1,4 @@
+/*Universal Selector*/
 *{
     padding: 0px;
     margin: 0px;
@@ -10,7 +11,7 @@ html{
 }
 
 
-/*global style for section container*/
+/*Global Style for Section-Container, Content-Container and Content-Container-Two*/
 .section-container{
     max-width: 92.5%;
     margin: auto;
@@ -149,7 +150,6 @@ html{
     text-decoration: none;
     color: #db2090;
 }
-
 .section-result #modal .side-bar .side-nav-container .filter-by-price #fbp-filter{
     float: left;
 }
@@ -242,16 +242,6 @@ html{
     background-position: center;
     background-size: cover;
 }
-/*showCase-boxFive*/
-
-
-/*showCase-boxSix*/
-
-/*showCase-boxSeven*/
-
-/*showCase-boxEight*/
-
-
 .section-result .row .box .label{
     display: flex;
     flex-direction: column;
@@ -271,8 +261,6 @@ html{
     flex-direction: row;
     padding: 10px 0px;
 }
-
-
 .section-result .page{
     display: flex;
     flex-direction: row;
@@ -289,17 +277,6 @@ html{
     background-color: #db2090;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*FOOTER*/
@@ -346,7 +323,7 @@ html{
 
 
 
-/*for tablet screen*/
+/*TABLET SCREEN-SIZE*/
 @media(max-width:768px){
     
     .section-container{
@@ -529,7 +506,7 @@ html{
     
 }
 
-/*for mobile screen*/
+/*MOBILE SCREEN-SIZE*/
 @media(max-width:480px){
     
     .section-container{
