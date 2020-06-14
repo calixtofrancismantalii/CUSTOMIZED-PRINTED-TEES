@@ -96,10 +96,15 @@ html{
     font-family: 'Teko';
     line-height: 50px;
 }
+
+/*map*/
 .section-One #map{
-    background-color: blueviolet;
+    box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.32);
+    background-color: gray;
     width: 60%;
+    border: solid 15px white;
 }
+
 
 
 /*SECTION-TWO*/
