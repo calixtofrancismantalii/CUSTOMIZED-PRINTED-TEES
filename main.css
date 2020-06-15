@@ -300,9 +300,6 @@ html{
 
 
 /*SECTION-FOUR*/
-.section-Four-backgroundColor{
-    height: 1100px;
-}
 .section-Four .rowOne {
     display: flex;
     justify-content: center;
@@ -495,7 +492,8 @@ html{
 .section-Five-backgroundColor{
     background-color: #f7f7f8;
     height: 850px;
-    padding-top: 120px
+    padding-top: 120px;
+    margin-top: -250px;
 }
 .section-Five{
     margin-top: 200px;
@@ -784,12 +782,14 @@ html{
     
     /*SECTION-FIVE*/
     .section-Five{
-        margin-top: 200px;
+/*        margin-top: 00px;*/
+/*        background-color: brown;*/
     }
     .section-Five .text > div{
         padding-left: 50px;
         padding-top: 20px;
         padding-right: 45px;
+        margin-top: 500px;
     }
     .section-Five .text p{
         padding: 20px 0px;
