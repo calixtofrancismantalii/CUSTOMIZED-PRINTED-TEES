@@ -319,13 +319,13 @@ html{
 .section-Four .showCase .boxes{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-wrap: nowrap;
 }
 .section-Four .showCase .boxes > div{
-    flex: 1;
+/*    flex: 1;*/
     margin: 10px;
-    width: 220px;
+    width: 50%;
 }
 .section-Four .showCase .boxes .box{
     border: solid 1px #f0eff0;
@@ -764,9 +764,8 @@ html{
         width: 100%;
     }
     .section-Four .showCase .boxes .box{
-        flex: 1;
         margin: 10px;
-        width: 50%;
+        width: 40%;
     }
     /*modal*/
     #modal .vid-container{
@@ -789,7 +788,6 @@ html{
         padding-left: 50px;
         padding-top: 20px;
         padding-right: 45px;
-        margin-top: 500px;
     }
     .section-Five .text p{
         padding: 20px 0px;
@@ -909,7 +907,6 @@ html{
         
     }
     .section-Five{
-        margin-top: 70px;
         display: flex;
         flex-direction: column;
     }
