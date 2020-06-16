@@ -331,6 +331,117 @@ html{
     }
         
 }
+/*TABLET SCREEN-SIZE*/
+@media(max-width: 768px){
+    
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    /*TOP-NAVBAR*/
+    .top-navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-navbar label{
+        margin-left: auto;
+        display: block;
+        padding: 35px 20px;
+        font-size: 25px;
+    }
+    .top-navbar #toggle:checked + ul{
+        display: block;
+    }
+    .top-navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .top-navbar ul{
+        display: none;
+    }
+    .top-navbar li{
+        border: solid 1px #eaeaea;
+        width: 100%;
+    }
+    
+    /*SECTION-ONE*/
+    .section-One{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-One .intro{
+        width: 100%;
+    }
+    .section-One #googleMap{
+        width: 100%;
+        height: 500px;
+        border: none;
+        box-shadow: none;
+    }
+    
+}
+/*LARGER TABLETS*/
+@media(max-width: 1279px){
+    
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    /*TOP-NAVBAR*/
+    .top-navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .top-navbar label{
+        margin-left: auto;
+        display: block;
+        padding: 35px 20px;
+        font-size: 25px;
+    }
+    .top-navbar #toggle:checked + ul{
+        display: block;
+    }
+    .top-navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .top-navbar ul{
+        display: none;
+    }
+    .top-navbar li{
+        border: solid 1px #eaeaea;
+        width: 100%;
+    }
+    
+    /*SECTION-ONE*/
+    .section-One{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-One .intro{
+        width: 100%;
+    }
+    .section-One #googleMap{
+        width: 100%;
+        height: 500px;
+        border: none;
+        box-shadow: none;
+    }
+    
+}
+
 
 
 
