@@ -344,15 +344,9 @@ html{
     cursor: pointer;
 }
 
-   
 
-
-
-
-
-    
 /*MOBILE SCREEN-SIZE*/
-@media only screen and (max-width: 481px){
+@media(max-width: 481px){
     
     .section-container{
         max-width: 100%;
