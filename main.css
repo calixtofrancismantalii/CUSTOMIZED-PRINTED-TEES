@@ -650,6 +650,9 @@ html{
         line-height: 50px;
         
     }
+    .section-One .intro p{
+        font-size: 11px;
+    }
     
     
     /*SECTION-TWO*/
@@ -773,10 +776,7 @@ html{
     }
     
     
-    
-    
-  
-   
+ 
 }
 /*TABLET SCREEN-SIZE*/
 @media(max-width:768px){
