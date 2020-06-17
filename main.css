@@ -734,6 +734,9 @@ html{
         flex-direction: column;
         text-align: left!important;
     }
+    .section-Three h1{
+        font-size: 30px;
+    }
     .section-Three > div button{
         background-color: inherit;
         padding: 12px 30px 12px 30px;
