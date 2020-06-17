@@ -182,10 +182,7 @@ html{
     height: 270px;
 }
 .section-Two .rowTwo .One{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: left!important;
     background-color: white;
     color: #3e5163;
     padding: 50px;
@@ -200,6 +197,7 @@ html{
     border-bottom: solid  1px;
     margin-top: 25px;
     cursor: pointer;
+    margin-left: 0px;
 }
 .section-Two .rowTwo .Two{
     background-image: url(images/rowTwoBoxOne.png);
@@ -297,6 +295,7 @@ html{
     border-bottom: solid 1px white;
     width: 150%;
 }
+
 
 
 /*SECTION-FOUR*/
@@ -618,11 +617,163 @@ html{
     cursor: pointer;
 }
 
+
+/*MOBILE SCREEN-SIZE*/
+@media(max-width:481px){
+    
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    
+    /*SECTION-ONE*/
+    .section-One{
+        background-image: url(images/sectionOneBg.mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding: 0px 15px; 
+        height: 850px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .section-One .intro{
+        width: 100%;
+        text-align: center;
+    }
+    .section-One .intro h1{
+        font-size: 3em;
+        line-height: 50px;
+        
+    }
+    
+    
+    /*SECTION-TWO*/
+    /*rowOne*/
+    .section-Two .rowOne{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section-Two .rowOne .box{
+        width: 100%!important;
+    }
+    /*rowTwo*/
+    .section-Two .rowTwo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section-Two .rowTwo .box{
+        text-align: center;
+        width: 100%!important;
+    }
+    /*rowTwo*/
+    .section-Two .rowThree{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Two .rowThree .box{
+        width: 100%;
+    }
+    .section-Two .rowThree .Two h1{
+        font-size: 100%!important;
+    }
+    
+    
+     /*SECTION-THREE*/
+    .section-Three{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Three > div{
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left!important;
+    }
+    .section-Three > div button{
+        background-color: inherit;
+        padding: 12px 30px 12px 30px;
+        outline: none;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        color: white;
+        border-top: solid 1px white;
+        border-right: solid 1px white;
+        border-bottom: solid 1px white;
+        width: 60%;
+        margin-left: 0px;
+    }
+    
+    
+     /*SECTION-FOUR*/
+    .section-Four-backgroundColor{
+        height: 2650px;
+    }
+    .section-Four .rowOne{
+        font-size: 15px;
+    }
+    .section-Four .showCase .switch{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .section-Four .showCase .boxes{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .section-Four .showCase .boxes .box{
+        width: 95%!important;
+    }
+    
+    
+    /*SECTION-FIVE*/
+    .section-Five-backgroundColor{
+        height: 1220px;
+        margin-top: 0px;
+        
+    }
+    .section-Five{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Five .box{
+        width: 100%;
+    }
    
-
-
-
-
+    
+    /*SECTION-SIX*/
+    .section-Six{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /*SECTION-SIX*/
+    .section-footer .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-footer .side-nav-footer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+  
+   
+}
 /*TABLET SCREEN-SIZE*/
 @media(max-width:768px){
     
@@ -663,7 +814,7 @@ html{
     
     /*SECTION-ONE*/
     .section-One{
-        padding: 0px 20px;
+        padding: 0px 30px;
     }
     .section-One .intro button{
         margin-top: 15px;
@@ -716,19 +867,14 @@ html{
 
     /*SECTION-THREE*/
     .section-Three{
+        padding: 30px;
         color: white;
         display: flex;
         flex-direction: column;
-        justify-content: center;'
-        align-items: center;
     }
-    .section-Three > div:nth-child(even){
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .section-Three > div{
+        padding: 0px;
         width: 100%;
-        padding: 0px 0px;
         text-align: center;
     }
     .section-Three button{
@@ -736,18 +882,23 @@ html{
         padding: 12px 30px 12px 30px;
         outline: none;
         border: none;
-        margin-top: 0px;
-        margin-bottom: 40px;
+        border-top: solid  2px;
+        border-right: solid  2px;
+        border-bottom: solid  2px;
+        margin-top: 20px;
         cursor: pointer;
         color: white;
         border-top: solid 1px white;
         border-right: solid 1px white;
         border-bottom: solid 1px white;
-        width: 25%;
+        width: 40%;
+        margin: auto;
     }
     
-    
     /*SECTION-FOUR*/
+    .section-Four{
+        padding: 30px;
+    }
     .section-Four .showCase{
         display: flex;
         flex-direction: column;
@@ -767,7 +918,7 @@ html{
         margin: 10px;
         width: 40%;
     }
-    /*modal*/
+    /*MODAL*/
     #modal .vid-container{
         height: 100%;
         display: flex;
@@ -805,138 +956,108 @@ html{
     }
     
 }
-
-/*MOBILE SCREEN-SIZE*/
-@media(max-width:480px){
+/*LARGER TABLET*/
+@media(max-width: 1279px){
     
     .section-container{
         max-width: 100%;
         margin: auto;
         font-size: 20px;
     }
-    
-    
-    .section-One{
-        background-image: url(images/sectionOneBg.mobile.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: contain;
-        padding: 0px 15px; 
-        height: 750px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    .section-One .intro{
+ 
+    /*TOP-NAVBAR*/
+    .top-navbar{
         width: 100%;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
-    .section-One .intro h1{
-        font-size: 3em;
-        line-height: 50px;
-        
+    .top-navbar label{
+        margin-left: auto;
+        display: block;
+        padding: 35px 20px;
+        font-size: 25px;
+    }
+    .top-navbar #toggle:checked + ul{
+        display: block;
+    }
+    .top-navbar ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f9f9f9;
+    }
+    .top-navbar ul{
+        display: none;
+    }
+    .top-navbar li{
+        border: solid 1px #eaeaea;
+        width: 100%;
     }
     
+    /*SECTION-ONE*/
+    .section-One{
+        padding: 30px;
+    }
     
     /*SECTION-TWO*/
-    /*rowOne*/
-    .section-Two .rowOne{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Two .rowOne .box{
-        text-align: center;
-        width: 100%;
-    }
-    /*rowTwo*/
-    .section-Two .rowTwo{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .section-Two .rowTwo .box{
-        text-align: center;
-        width: 100%;
-    }
-    /*rowTwo*/
     .section-Two .rowThree{
-        display: flex;
-        flex-direction: column;
+        padding: 0px 30px;
     }
-    .section-Two .rowThree .box{
-        width: 100%;
+    .section-Two .rowThree .Two{
+        padding: 30px;
     }
-    
     
     /*SECTION-THREE*/
     .section-Three{
+        padding: 30px;
+        color: white;
         display: flex;
         flex-direction: column;
-        font-size: 15px;
-        padding: 0px 15px; 
+    }
+    .section-Three > div{
+        padding: 0px;
+        width: 100%;
+        text-align: center;
     }
     .section-Three button{
-        width: 45%;
+        background-color: inherit;
+        padding: 12px 30px 12px 30px;
+        outline: none;
+        border: none;
+        border-top: solid  2px;
+        border-right: solid  2px;
+        border-bottom: solid  2px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: white;
+        border-top: solid 1px white;
+        border-right: solid 1px white;
+        border-bottom: solid 1px white;
+        width: 40%;
+        margin: auto;
     }
     
+    /*SECTION-FOUR*/
+    .section-Four{
+        padding: 30px;
+    }
     
-     /*SECTION-FOUR*/
-    .section-Four-backgroundColor{
-        height: 2650px;
-    }
-    .section-Four .rowOne{
-        font-size: 15px;
-    }
-    .section-Four .showCase .switch{
-        display: flex;
-        margin-bottom: 20px;
-    }
-    .section-Four .showCase .boxes{
+    /*MODAL*/
+    #modal .vid-container{
+        height: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0px 50px;
     }
-    .section-Four .showCase .boxes .box{
-        width: 95%;
-    }
-    
     
     /*SECTION-FIVE*/
-    .section-Five-backgroundColor{
-        height: 1220px;
-        
-    }
-    .section-Five{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Five .box{
-        width: 100%;
-    }
-   
-    
-    /*SECTION-SIX*/
-    .section-Six{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    /*SECTION-SIX*/
-    .section-footer .column{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-footer .side-nav-footer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    .section-Five .text{
+        padding: 30px;
     }
     
     
     
     
-  
-   
 }
-
