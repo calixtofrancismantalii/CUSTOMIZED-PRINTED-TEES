@@ -141,13 +141,13 @@ html{
     line-height: 30px
 }
 .section-Two .rowOne .Two{
-    background-image: url(images/rowOneBoxOne.png);
+    background-image: url(images/rowOneBoxTwo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .section-Two .rowOne .Three{
-    background-image: url(images/rowOneBoxTwo.png);
+    background-image: url(images/rowOneBoxThree.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -200,13 +200,13 @@ html{
     margin-left: 0px;
 }
 .section-Two .rowTwo .Two{
-    background-image: url(images/rowTwoBoxOne.png);
+    background-image: url(images/rowTwoBoxTwo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .section-Two .rowTwo .Three{
-    background-image: url(images/rowTwoBoxTwo.png);
+    background-image: url(images/rowTwoBoxThree.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -333,7 +333,7 @@ html{
     transition: 0.4s
 }
 .section-Four .showCase .boxes .box:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 9px 11px -2px rgba(0,0,0,0.11);
 }
 .section-Four .showCase .boxes .box .img-container{
     height: 250px;
@@ -651,12 +651,15 @@ html{
         
     }
     .section-One .intro p{
-        font-size: 11px;
+        font-size: 16px;
     }
     
     
     /*SECTION-TWO*/
     /*rowOne*/
+    .section-Two{
+        padding: 0px 0px;
+    }
     .section-Two .rowOne{
         display: flex;
         flex-direction: column;
@@ -664,6 +667,20 @@ html{
     }
     .section-Two .rowOne .box{
         width: 100%!important;
+    }
+    .section-Two .rowOne .One{
+        font-size: 16px;
+    }
+    .section-Two .rowOne .Two{
+        background-image: url(images/rowOneBoxOne.mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .section-Two .rowOne .Three{
+        display: none;
+        
     }
     /*rowTwo*/
     .section-Two .rowTwo{
@@ -675,10 +692,21 @@ html{
         text-align: center;
         width: 100%!important;
     }
+    .section-Two .rowTwo .Two{
+        background-image: url(images/rowTwoBoxTwo.mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .section-Two .rowTwo .Three{
+        display: none;
+        
+    }
     /*rowTwo*/
     .section-Two .rowThree{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .section-Two .rowThree .box{
         width: 100%;
