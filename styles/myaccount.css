@@ -480,7 +480,17 @@ html{
         flex-wrap: wrap;
     }
     
-    
+    /*FOOTER*/
+    .section-footer .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-footer .side-nav-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     
     
   

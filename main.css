@@ -748,6 +748,9 @@ html{
     .section-Five .box{
         width: 100%;
     }
+    .section-Five .text{
+        margin-bottom: 60px;
+    }
    
     
     /*SECTION-SIX*/
@@ -764,6 +767,7 @@ html{
     }
     .section-footer .side-nav-footer{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
     }

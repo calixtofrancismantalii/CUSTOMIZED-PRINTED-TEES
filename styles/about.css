@@ -401,6 +401,12 @@ html{
         display: flex;
         flex-direction: column;
     }
+    .section-footer .side-nav-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
         
 }
 /*TABLETS SCREEN-SIZE*/
