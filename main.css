@@ -780,7 +780,7 @@ html{
     /*SECTION-FIVE*/
     .section-Five-backgroundColor{
         height: 1220px;
-        margin-top: 0px;
+        margin-top: -200px;
         
     }
     .section-Five{
@@ -793,12 +793,24 @@ html{
     .section-Five .text{
         margin-bottom: 60px;
     }
+    .section-Five .text h1{
+        font-size: 30px;
+    }
+    .section-Five .text p{
+        font-size: 16px;
+    }
    
     
     /*SECTION-SIX*/
     .section-Six{
         display: flex;
         flex-direction: column;
+    }
+    .section-Six .text h1{
+        font-size: 30px;
+    }
+    .section-Six .text p{
+        font-size: 16px;
     }
     
     
