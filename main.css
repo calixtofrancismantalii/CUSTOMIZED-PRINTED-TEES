@@ -266,7 +266,7 @@ html{
 
 /*SECTION-THREE*/
 .section-Three-backgroundColor{
-    background-color: #fa0498;
+    background-color: #806ac8;
 }
 .section-Three{
     color: white;
@@ -418,6 +418,7 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-color: black;
     width: 100%;
     height: 480px;
     background-color: black;
@@ -707,12 +708,16 @@ html{
     .section-Two .rowThree{
         display: flex;
         flex-direction: column-reverse;
+        text-align: center;
     }
     .section-Two .rowThree .box{
         width: 100%;
     }
     .section-Two .rowThree .Two h1{
         font-size: 100%!important;
+    }
+    .section-Two .rowThree .Two p{
+        font-size: 16px;
     }
     
     
@@ -751,6 +756,9 @@ html{
     }
     .section-Four .rowOne{
         font-size: 15px;
+    }
+    .section-Four .showCase{
+        font-size: 16px;
     }
     .section-Four .showCase .switch{
         display: flex;
