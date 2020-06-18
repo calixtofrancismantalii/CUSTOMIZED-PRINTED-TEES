@@ -629,6 +629,17 @@ html{
     }
     
     
+    /*TOP-NAVBAR*/
+    .top-navbar ul a{
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        margin: 0px;
+        padding: 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
     /*SECTION-ONE*/
     .section-One{
         background-image: url(images/sectionOneBg.mobile.png);
@@ -704,7 +715,7 @@ html{
         display: none;
         
     }
-    /*rowTwo*/
+    /*rowThree*/
     .section-Two .rowThree{
         display: flex;
         flex-direction: column-reverse;
