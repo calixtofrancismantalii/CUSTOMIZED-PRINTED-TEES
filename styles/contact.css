@@ -48,6 +48,7 @@ html{
     display: block;
     margin: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 .top-navbar ul .active{
     color: red;

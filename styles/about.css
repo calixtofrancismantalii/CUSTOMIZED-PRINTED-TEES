@@ -48,6 +48,7 @@ html{
     display: block;
     margin: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 .top-navbar ul .active{
     color: red;
@@ -336,6 +337,9 @@ html{
         width: 100%;
         padding: 10px;
     }
+    .section-One .column p{
+        font-size: 16px;
+    }
     
     /*SECTION-TWO*/
     .section-Two{
@@ -349,8 +353,15 @@ html{
         width: 100%;
         padding-top: 50px;
     }
+    .section-Two .column .text h1{
+        font-size: 30px;
+    }
     .section-Two .column .text table{
         width: 100%;
+        font-size: 16px;
+    }
+    .section-Two .column .text p{
+        font-size: 16px;
     }
     .section-Two .column .image{
         height: 600px;
@@ -363,6 +374,9 @@ html{
         color: white;
         display: flex;
         flex-direction: column;
+    }
+    .section-Three h1{
+        font-size: 30px;
     }
     .section-Three > div{
         padding: 0px;
@@ -393,6 +407,12 @@ html{
     .section-Four > div{
         width: 100%;
         padding: 200px 0px;
+    }
+    .section-Four h1{
+        font-size: 30px;
+    }
+    .section-Four p{
+        font-size: 16px;
     }
     
     /*FOOTER*/

@@ -54,6 +54,7 @@ html{
     display: block;
     margin: 20px;
     cursor: pointer;
+    font-size: 16px;
 }
 .top-navbar ul .active{
     color: red;
@@ -128,7 +129,6 @@ html{
 /*FOOTER*/
 .footer-backgroundColor{
     background-color: #3e5163;
-    margin-bottom: 120px;
 }
 .section-footer .column{
     display: flex;
@@ -141,7 +141,7 @@ html{
 .section-footer .column .side-nav-footer{
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
 }
 .section-footer .column .side-nav-footer a{
@@ -166,9 +166,137 @@ html{
    
 
 
+/*MOBILE SCREEN-SIZE*/
+@media(max-width:480px){
+    
+    .section-container{
+        max-width: 100%;
+        margin: auto;
+        font-size: 20px;
+    }
+    
+    
+    .section-One{
+        background-image: url(images/sectionOneBg.mobile.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        padding: 0px 15px; 
+        height: 750px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .section-One .intro{
+        width: 100%;
+        text-align: center;
+    }
+    .section-One .intro h1{
+        font-size: 3em;
+        line-height: 50px;
+        
+    }
+    
+    
+    /*SECTION-TWO*/
+    /*rowOne*/
+    .section-Two .rowOne{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Two .rowOne .box{
+        text-align: center;
+        width: 100%;
+    }
+    /*rowTwo*/
+    .section-Two .rowTwo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section-Two .rowTwo .box{
+        text-align: center;
+        width: 100%;
+    }
+    /*rowThree*/
+    .section-Two .rowThree{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Two .rowThree .box{
+        width: 100%;
+    }
+    
+    
+    /*SECTION-THREE*/
+    .section-Three{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        padding: 0px 15px; 
+    }
+    .section-Three button{
+        width: 45%;
+    }
+    
+    
+     /*SECTION-FOUR*/
+    .section-Four-backgroundColor{
+        height: 2650px;
+    }
+    .section-Four .rowOne{
+        font-size: 15px;
+    }
+    .section-Four .showCase .switch{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .section-Four .showCase .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Four .showCase .boxes .box{
+        width: 95%;
+    }
+    
+    
+    /*SECTION-FIVE*/
+    .section-Five-backgroundColor{
+        height: 1220px;
+        
+    }
+    .section-Five{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-Five .box{
+        width: 100%;
+    }
+   
+    
 
+    
+    
 
-
+    
+    /*FOOTER*/
+    .section-footer .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-footer .side-nav-footer{
+        display: flex;
+    }
+    .section-footer .side-nav-footer a{
+        font-size: 16px;
+    }
+    
+    
+  
+   
+}
 /*TABLET SCREEN-SIZE*/
 @media(max-width:768px){
     
@@ -352,148 +480,6 @@ html{
     
 }
 
-/*MOBILE SCREEN-SIZE*/
-@media(max-width:480px){
-    
-    .section-container{
-        max-width: 100%;
-        margin: auto;
-        font-size: 20px;
-    }
-    
-    
-    .section-One{
-        background-image: url(images/sectionOneBg.mobile.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: contain;
-        padding: 0px 15px; 
-        height: 750px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    .section-One .intro{
-        width: 100%;
-        text-align: center;
-    }
-    .section-One .intro h1{
-        font-size: 3em;
-        line-height: 50px;
-        
-    }
-    
-    
-    /*SECTION-TWO*/
-    /*rowOne*/
-    .section-Two .rowOne{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Two .rowOne .box{
-        text-align: center;
-        width: 100%;
-    }
-    /*rowTwo*/
-    .section-Two .rowTwo{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .section-Two .rowTwo .box{
-        text-align: center;
-        width: 100%;
-    }
-    /*rowTwo*/
-    .section-Two .rowThree{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Two .rowThree .box{
-        width: 100%;
-    }
-    
-    
-    /*SECTION-THREE*/
-    .section-Three{
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        padding: 0px 15px; 
-    }
-    .section-Three button{
-        width: 45%;
-    }
-    
-    
-     /*SECTION-FOUR*/
-    .section-Four-backgroundColor{
-        height: 2650px;
-    }
-    .section-Four .rowOne{
-        font-size: 15px;
-    }
-    .section-Four .showCase .switch{
-        display: flex;
-        margin-bottom: 20px;
-    }
-    .section-Four .showCase .boxes{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Four .showCase .boxes .box{
-        width: 95%;
-    }
-    
-    
-    /*SECTION-FIVE*/
-    .section-Five-backgroundColor{
-        height: 1220px;
-        
-    }
-    .section-Five{
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-    }
-    .section-Five .box{
-        width: 100%;
-    }
-   
-    
-    /*SECTION-SIX*/
-    .section-Six{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    /*SECTION-SIX*/
-    .section-footer .column{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-footer .side-nav-footer{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    /*FOOTER*/
-    .section-footer .column{
-        display: flex;
-        flex-direction: column;
-    }
-    .section-footer .side-nav-footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
-    
-  
-   
-}
+
+
 
