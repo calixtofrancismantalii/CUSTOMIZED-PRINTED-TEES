@@ -595,7 +595,7 @@ html{
 .section-footer .column .side-nav-footer{
     background-image: url(images/footer.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
 }
 .section-footer .column .side-nav-footer a{
@@ -813,14 +813,16 @@ html{
     }
     
     
-    /*SECTION-SIX*/
+    /*FOOTER*/
     .section-footer .column{
         display: flex;
         flex-direction: column;
     }
+    .section-footer .side-nav-footer{
+        display: flex;
+    }
     .section-footer .side-nav-footer a{
-        display: inline-block;
-        font-size: 15px;
+        font-size: 16px;
     }
     
     
