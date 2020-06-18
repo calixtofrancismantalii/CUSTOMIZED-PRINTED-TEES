@@ -291,32 +291,14 @@ html{
     }
     
     /*TOP-NAVBAR*/
-    .top-navbar{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .top-navbar label{
-        margin-left: auto;
+    .top-navbar ul a{
+        text-decoration: none;
+        color: inherit;
         display: block;
-        padding: 35px 20px;
-        font-size: 25px;
-    }
-    .top-navbar #toggle:checked + ul{
-        display: block;
-    }
-    .top-navbar ul{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color: #f9f9f9;
-    }
-    .top-navbar ul{
-        display: none;
-    }
-    .top-navbar li{
-        border: solid 1px #eaeaea;
-        width: 100%;
+        margin: 0px;
+        padding: 20px;
+        cursor: pointer;
+        font-size: 16px;
     }
     
     /*SECTION-ONE*/
