@@ -282,7 +282,6 @@ html{
 /*FOOTER*/
 .footer-backgroundColor{
     background-color: #3e5163;
-    margin-bottom: 120px;
 }
 .section-footer .column{
     display: flex;
